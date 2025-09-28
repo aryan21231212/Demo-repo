@@ -5,11 +5,11 @@ let mode = "light"
 
 button.addEventListener("click", () => {
     if(mode ==="light"){
-        container.style.backgroundColor = "#000"
+        container.backgroundColor = "#000"
         button.style.innerText = "Light Mode"
         mode = "dark"
     }else{
-         container.style.backgroundColor = "#fff"
+         container.backgroundColor = "#fff"
          mode = "light"
          button.style.innerText = "Dark Mode"
     }
